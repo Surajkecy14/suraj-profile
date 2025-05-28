@@ -2,9 +2,6 @@ import React from 'react';
 
 
 const About = () => {
-  useEffect(() => {
-    document.title = "suraj"; // Set your custom title here
-  }, [])
   return (
     <section className="about" id="about">
       <h2>About Me</h2>
